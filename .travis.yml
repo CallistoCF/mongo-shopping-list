@@ -1,4 +1,3 @@
-script: mocha
 language: node_js
 node_js: node
 services:
@@ -9,4 +8,3 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
-    - mocha
