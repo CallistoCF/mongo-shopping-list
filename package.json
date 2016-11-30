@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node node_modules/mocha/bin/mocha.js"
   },
   "author": "Chris Frater",
   "license": "ISC",
