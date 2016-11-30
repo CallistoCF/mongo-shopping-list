@@ -1,6 +1,8 @@
+before_script:
+  -npm install -g mocha
+script: mocha
 language: node_js
-node_js:
-- "stable"
+node_js: node
 services:
 - mongodb
 addons:
