@@ -18,8 +18,8 @@ app.get('/items', function(req, res) {
                 message: 'Internal Server Error'
             });
         }
-        console.log("Server: items are: ");
-        console.log(items);
+        //console.log("Server: items are: ");
+        //console.log(items);
         res.status(201).json(items);
     });
 });
