@@ -9,3 +9,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: BiRMC64Gh1xIcr1AWRJIIW0B0+BPsLjXANkj9mNuTa8t3M/M4HjWsCxGgq0hL6nzAOUEV9k5xAdjzdu3ixMWwJZ0+xl9ad1J/+lyT46uGZlE1Y6V9m+isSegvf1GJqm1AH3xiBgGSOQ/Nv8x5Z3uEfMLI2Mlkurf4X+Znw7g+isi1ihFvhE4/GRNz+mbYyboK/52r0gXjBg+BJqb7/6aKLCPvDKkqCYIvdHEzXiC/eqlvcDRUpZnN/k1qoyBsA2ATbtzDo4wvNKoRMCL0E1tRAJlc59amt1lkCcOENSVH4to1Oq+SsGwe9DDpINN92ln/mxAlqJ84KGW1LpdC6+LXSAWANmVAVXvOYJgLXGhLE9o+guZ+Ji/vGl6ctlZpHWt/PpPJXAryl/qtxG0dja1PWMyiZhN10Erlr77XjeSpCZtb2ALRnk0SGw9qf/Eb77DKpU6JAwuXFoYA8sryckR/KtzVZwV2vcR4u6NN5KkLmYsCJyCHSon3/flg0mq/7kBVLyeCyyU/b56rEzX5YnREJ8a9d8cTj0HY3T1ryx6cuXZ+PH+6SPBib7IHImWRXal8H1+QPfnj7oDe2vI+qm/S1NT6lqeg0RkCZ3Nxo5/8us6bChJ/l/5n2VBKjrugH9TUr786yMDVnGbvx9DUbuJzJ7PNOHyBXJJJUuqGIZYdzY=
+  app: radiant-savannah-47556
+  on:
+    repo: CallistoCF/mongo-shopping-list
